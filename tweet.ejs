@@ -2,7 +2,7 @@
   <div class="tweet-border">
     <div class="h-card p-author">
         <iframe class="follow-button" allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html#align=right&amp;button=grey&amp;screen_name=<%- content.importData.from_user %>&amp;show_count=false&amp;show_screen_name=false&amp;lang=en"></iframe>      
-        <a class="screen-name u-url" href="https://twitter.com/<%- content.importData.screen_name %>" data-screen-name="twitterapi">
+        <a class="screen-name u-url" href="https://twitter.com/<%- content.importData.from_user %>" data-screen-name="twitterapi">
           <span class="avatar pull-left"><img src="<%- content.importData.profile_image_url_https %>" class="u-photo img-rounded" alt=""/></span>
           <span class="p-name"><%- content.importData.from_user_name %></span>
           <span class="p-nickname">@<%- content.importData.from_user %></span>
